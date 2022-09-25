@@ -1,0 +1,31 @@
+.cart{
+    position: sticky;
+    top: 0;
+    padding: 30px 20px;
+}
+.btn{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+.btn button{
+    width: 15rem;
+    padding: 0.7rem;
+    color: white;
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+.btn .btn-1{
+    background-color: #FF3030;
+}
+.btn .btn-2{
+    background-color: #FF9900;   
+}
+
+.btn button:hover{
+    background: white;
+    color: black;
+}
